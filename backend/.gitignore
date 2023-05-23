@@ -1,0 +1,23 @@
+# Node.js
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Build artifacts
+build/
+
+# Environment variables
+.env
+
+# IDE/Editor specific
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Testing
+coverage/
+
+# Docker
+Dockerfile
+docker-compose.yml
