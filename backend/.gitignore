@@ -21,3 +21,6 @@ coverage/
 # Docker
 Dockerfile
 docker-compose.yml
+
+# ENV
+.env
