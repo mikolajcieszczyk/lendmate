@@ -5,8 +5,6 @@ const { resolvers } = require("./resolvers.js");
 const { typeDefs } = require("./models/typeDefs.js");
 require("dotenv").config();
 
-const MONGO_URI = `mongodb+srv://lendmate:${process.env.MONGO_ATLAS_PASSWORD}@lendmate-db.qrqb1uu.mongodb.net/?retryWrites=true&w=majority`;
-
 mongoose
   .connect(MONGO_URI, {
     useNewUrlParser: true,

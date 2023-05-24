@@ -1,10 +1,10 @@
 import React from "react";
-import Counter from "./features/counter/Counter";
+import OnfidoCheck from "./components/Onfido/Onfido";
 
 function App(): JSX.Element {
   return (
     <div className="App">
-      <Counter />
+      <OnfidoCheck />
     </div>
   );
 }
