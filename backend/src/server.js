@@ -1,8 +1,8 @@
 const { ApolloServer } = require("@apollo/server");
 const { startStandaloneServer } = require("@apollo/server/standalone");
 const mongoose = require("mongoose");
-const { resolvers } = require("./graphql/resolvers/index.js");
-const { typeDefs } = require("./graphql/typeDefs/index.js");
+const resolvers = require("./graphql/resolvers/index.js");
+const typeDefs = require("./graphql/typeDefs/index.js");
 require("dotenv").config();
 
 mongoose

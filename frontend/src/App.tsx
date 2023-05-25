@@ -1,10 +1,10 @@
 import React from "react";
-import OnfidoCheck from "./components/Onfido/Onfido";
+import OnfidoComponent from "./components/Onfido/Onfido";
 
 function App(): JSX.Element {
   return (
     <div className="App">
-      <OnfidoCheck />
+      <OnfidoComponent />
     </div>
   );
 }
