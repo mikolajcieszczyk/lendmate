@@ -10,6 +10,7 @@ import {
   gql,
 } from "@apollo/client";
 import { createRoot } from "react-dom/client";
+import { BrowserRouter } from "react-router-dom";
 
 const container = document.getElementById("root");
 
@@ -46,7 +47,9 @@ root.render(
   <React.StrictMode>
     <ApolloProvider client={client}>
       <Provider store={store}>
-        <App />
+        <BrowserRouter>
+          <App />
+        </BrowserRouter>
       </Provider>
     </ApolloProvider>
   </React.StrictMode>
